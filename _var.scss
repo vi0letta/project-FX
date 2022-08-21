@@ -1,0 +1,10 @@
+// sizes for responsive columns
+$sm: 576px;
+$md: 767px;
+$lg: 1200px;
+$gutter-col: 15px;
+$grid-col-count: 12;
+$grid-col-size: math.div(100%, $grid-col-count);
+
+// colors
+$purple: #4D49B4;

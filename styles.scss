@@ -1,0 +1,61 @@
+@use "sass:math";
+@import "./reset";
+@import "./var";
+@import "./columns";
+
+@mixin font-properties ($font-weight, $font-size, $line-height) {
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
+.purple {
+    color: $purple;
+}
+
+.purple-block {
+    width: 4px;
+    height: 32px;
+    background-color: $purple;
+}
+
+.sidebar {
+    padding: 24px;
+
+    &__lokation {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        max-width: 95px;
+        margin-bottom: 20px;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        &-block {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 10px;
+            justify-content: space-between;
+
+            &-mini {
+                display: flex;
+                gap: 10px;
+            }
+        }
+
+        &-img {
+            width: 20px;
+        }
+    
+        &-txt {
+            @include font-properties(500, 14px, 19px)
+        }
+    }
+}

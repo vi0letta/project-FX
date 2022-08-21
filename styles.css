@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Open Sans", sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.col-1 {
+  flex: 0 0 auto;
+  width: 8.3333333333%;
+  padding: 15px 15px 0;
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  width: 16.6666666667%;
+  padding: 15px 15px 0;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+  padding: 15px 15px 0;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.3333333333%;
+  padding: 15px 15px 0;
+}
+
+.col-5 {
+  flex: 0 0 auto;
+  width: 41.6666666667%;
+  padding: 15px 15px 0;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 15px 15px 0;
+}
+
+.col-7 {
+  flex: 0 0 auto;
+  width: 58.3333333333%;
+  padding: 15px 15px 0;
+}
+
+.col-8 {
+  flex: 0 0 auto;
+  width: 66.6666666667%;
+  padding: 15px 15px 0;
+}
+
+.col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+  padding: 15px 15px 0;
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  width: 83.3333333333%;
+  padding: 15px 15px 0;
+}
+
+.col-11 {
+  flex: 0 0 auto;
+  width: 91.6666666667%;
+  padding: 15px 15px 0;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 15px 15px 0;
+}
+
+@media all and (min-width: 576px) {
+  .col-sm-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-sm-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-sm-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    padding: 15px 15px 0;
+  }
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-sm-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 15px 15px 0;
+  }
+  .col-sm-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-sm-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-sm-9 {
+    flex: 0 0 auto;
+    width: 75%;
+    padding: 15px 15px 0;
+  }
+  .col-sm-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-sm-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-sm-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 15px 15px 0;
+  }
+}
+@media all and (min-width: 767px) {
+  .col-md-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-md-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    padding: 15px 15px 0;
+  }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-md-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 15px 15px 0;
+  }
+  .col-md-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+    padding: 15px 15px 0;
+  }
+  .col-md-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-md-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 15px 15px 0;
+  }
+}
+@media all and (min-width: 1200px) {
+  .col-lg-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-lg-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    padding: 15px 15px 0;
+  }
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-lg-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 15px 15px 0;
+  }
+  .col-lg-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-lg-9 {
+    flex: 0 0 auto;
+    width: 75%;
+    padding: 15px 15px 0;
+  }
+  .col-lg-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%;
+    padding: 15px 15px 0;
+  }
+  .col-lg-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667%;
+    padding: 15px 15px 0;
+  }
+  .col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 15px 15px 0;
+  }
+}
+.purple {
+  color: #4D49B4;
+}
+
+.purple-block {
+  width: 4px;
+  height: 32px;
+  background-color: #4D49B4;
+}
+
+.sidebar {
+  padding: 24px;
+}
+.sidebar__lokation {
+  display: flex;
+  align-items: center;
+}
+.sidebar__img {
+  max-width: 95px;
+  margin-bottom: 20px;
+}
+.sidebar__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.sidebar__menu-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 10px;
+  justify-content: space-between;
+}
+.sidebar__menu-block-mini {
+  display: flex;
+  gap: 10px;
+}
+.sidebar__menu-img {
+  width: 20px;
+}
+.sidebar__menu-txt {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+}

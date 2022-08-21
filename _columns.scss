@@ -1,0 +1,37 @@
+@for $i from 1 through $grid-col-count {
+    .col-#{$i} {
+        flex: 0 0 auto;
+        width: $grid-col-size * $i;
+        padding: $gutter-col $gutter-col 0;
+    }
+}
+
+@media all and (min-width:$sm ) {
+    @for $i from 1 through $grid-col-count {
+        .col-sm-#{$i} {
+            flex: 0 0 auto;
+            width: $grid-col-size * $i;
+            padding: $gutter-col $gutter-col 0;
+        }
+    }
+}
+
+@media all and (min-width:$md ) {
+    @for $i from 1 through $grid-col-count {
+        .col-md-#{$i} {
+            flex: 0 0 auto;
+            width: $grid-col-size * $i;
+            padding: $gutter-col $gutter-col 0;
+        }
+    }
+}
+
+@media all and (min-width:$lg ) {
+    @for $i from 1 through $grid-col-count {
+        .col-lg-#{$i} {
+            flex: 0 0 auto;
+            width: $grid-col-size * $i;
+            padding: $gutter-col $gutter-col 0;
+        }
+    }
+}
